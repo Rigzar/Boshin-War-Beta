@@ -1,0 +1,21 @@
+{
+  "games" : [ {
+    "gameName" : "Boshin War Beta",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : null,
+      "listOfEquipmentOptions" : null,
+      "armyName" : "Imperial",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "Ranged Infantry", "Melee Infantry", "Commander", "General", "Especial" ],
+    "listOfEquipmentOptions" : [ {
+      "listOfOptions" : null,
+      "equipmentName" : "%Melee"
+    }, {
+      "listOfOptions" : null,
+      "equipmentName" : "%Ranged"
+    } ],
+    "listOfCurrencies" : [ "Points" ]
+  } ]
+}
