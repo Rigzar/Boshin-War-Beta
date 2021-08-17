@@ -1,0 +1,79 @@
+{
+  "games" : [ {
+    "gameName" : "Boshin War Beta",
+    "armies" : [ {
+      "listOfRestrictions" : [ {
+        "numberOfTimesNeededToBeFound" : -1,
+        "maxAllowed" : -1,
+        "multiplier" : -1,
+        "errorMessage" : "",
+        "nameOfCheck" : "",
+        "globalProperty" : "",
+        "nameOfUpgradeProperty" : "",
+        "conditionalType" : "",
+        "upgradeID" : -1,
+        "nameOfUnitProperty" : "",
+        "additionalRestrictions" : null,
+        "numberNeeded" : -1,
+        "unitID" : -1,
+        "startingModels" : -1,
+        "nameOfCompareUpgradeProperty" : ""
+      }, {
+        "numberOfTimesNeededToBeFound" : -1,
+        "maxAllowed" : 1,
+        "multiplier" : -1,
+        "errorMessage" : "To Many Katana",
+        "nameOfCheck" : "Katana",
+        "globalProperty" : "",
+        "nameOfUpgradeProperty" : "",
+        "conditionalType" : "==",
+        "upgradeID" : -1,
+        "nameOfUnitProperty" : "",
+        "additionalRestrictions" : null,
+        "numberNeeded" : 1,
+        "unitID" : -1,
+        "startingModels" : 1,
+        "nameOfCompareUpgradeProperty" : ""
+      } ],
+      "listOfUnits" : [ {
+        "unitName" : "Shinsengumi",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4,
+          "optionName" : "Katana and Wakizashi",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Special",
+        "unitCost" : 130.0,
+        "unitID" : 3,
+        "autoAddDictionary" : { },
+        "startingModels" : 4,
+        "listOfCurrencies" : {
+          "Points" : "130"
+        }
+      } ],
+      "listOfEquipmentOptions" : [ {
+        "listOfOptions" : null,
+        "equipmentName" : "$Katana"
+      }, {
+        "listOfOptions" : null,
+        "equipmentName" : "$Wakisashi"
+      } ],
+      "armyName" : "Shogunate",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "Ranged Infantry", "Melee Infantry", "Commander", "General", "Especial" ],
+    "listOfEquipmentOptions" : [ {
+      "listOfOptions" : null,
+      "equipmentName" : "%Melee"
+    }, {
+      "listOfOptions" : null,
+      "equipmentName" : "%Ranged"
+    } ],
+    "listOfCurrencies" : [ "Points" ]
+  } ]
+}
